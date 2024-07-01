@@ -6,7 +6,7 @@ echo [PROCESSING...} git add --all .
 git add --all .
 if [%1] EQU [] (
 echo [PROCESSING..] git commit -m "Dev JAVA Web Project %data%-[%time:~5,0%]"
-git commit -m "Dev JAVA Web Project %data%-[%time:~5,0%]"
+git commit -m "Dev JAVA Web Project %date%-[%time:~0,5%]"
 ) else (
 echo [PROCESSING...] git commit -m %1
 git commit -m %1
