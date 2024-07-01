@@ -15,3 +15,4 @@ echo [PROCESSING...] git push
 git push
 echo=========================================
 echo .
+git push
