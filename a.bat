@@ -1,7 +1,7 @@
 @echo off
 echo=======================================
 echo [PROCESSING...] git pull
-gut pull
+git pull
 echo [PROCESSING...} git add --all .
 git add --all .
 if [%1] EQU [] (
